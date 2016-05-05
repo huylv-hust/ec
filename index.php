@@ -7,7 +7,7 @@ if (is_file('config.php')) {
 // Startup
 require_once(DIR_SYSTEM . 'startup.php');
 
-$application_config = 'catalog';
+$application_config = 'frontend';
 
 // Application
-require_once(DIR_SYSTEM . 'framework.php');
+require_once(DIR_SYSTEM . 'run.php');

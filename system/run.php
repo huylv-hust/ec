@@ -95,7 +95,7 @@ if ($config->has('action_pre_action')) {
 	}
 }
 
-// Dispatch
+// Dispatch (thằng này quan trọng vl)
 $controller->dispatch(new Action($config->get('action_router')), new Action($config->get('action_error')));
 
 // Output

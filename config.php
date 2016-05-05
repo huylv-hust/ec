@@ -10,7 +10,7 @@ define('DOCUMENT_ROOT',$_SERVER['DOCUMENT_ROOT']);
 define('DIR_APPLICATION', DOCUMENT_ROOT.'ec/catalog/');
 define('DIR_SYSTEM', DOCUMENT_ROOT.'ec/system/');
 define('DIR_LANGUAGE', DOCUMENT_ROOT.'ec/catalog/language/');
-define('DIR_TEMPLATE', DOCUMENT_ROOT.'ec/catalog/view/theme/');
+define('DIR_TEMPLATE', DOCUMENT_ROOT.'ec/catalog/view/');
 define('DIR_CONFIG', DOCUMENT_ROOT.'ec/system/config/');
 define('DIR_IMAGE', DOCUMENT_ROOT.'ec/image/');
 define('DIR_CACHE', DOCUMENT_ROOT.'ec/system/storage/cache/');
